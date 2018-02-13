@@ -9,6 +9,7 @@ class UserIdentity < ApplicationRecord
     :trackable, 
     :validatable,
     :omniauthable,
+    :confirmable,
     :timeoutable
 
   def self.from_omniauth(auth)
