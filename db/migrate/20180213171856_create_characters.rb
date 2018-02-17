@@ -9,10 +9,10 @@ class CreateCharacters < ActiveRecord::Migration[5.1]
       t.string :born_at
       t.string :height
       t.string :weight
-      t.user_account :references
-      t.game_system :references
 
       t.timestamps
     end
+    add_reference :characters, :user_account, foreign_key: true
+    add_reference :characters, :game_system, foreign_key: true
   end
 end
