@@ -1,15 +1,15 @@
 class GameSystem < ApplicationRecord
-	has_many :characters
-	has_many :items
-	has_many :campaings
-	serialize :templates, Hash
+  has_many :characters
+  has_many :items
+  has_many :campaings
+  serialize :templates, Hash
 
-	DICES = {
-		d3: 'D3',
-		d4: 'D4',
-		d5: 'D5',
-		d6: 'D6',
-		d7: 'D7',
+  DICES = {
+    d3: 'D3',
+    d4: 'D4',
+    d5: 'D5',
+    d6: 'D6',
+    d7: 'D7',
     d8: 'D8',
     d10: 'D10',
     d12: 'D12',
