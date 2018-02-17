@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  effects: MyText
+  damage: 1
+  type: 
+  cost: MyString
+  defense: 1
+  durability: 9.99
+  crafter: MyString
+  description: MyText
+  game_system: one
+
+two:
+  name: MyString
+  effects: MyText
+  damage: 1
+  type: 
+  cost: MyString
+  defense: 1
+  durability: 9.99
+  crafter: MyString
+  description: MyText
+  game_system: two
