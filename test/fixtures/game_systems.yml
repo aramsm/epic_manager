@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  dices: MyString
+  rules: MyText
+  author: MyString
+  templates: MyText
+
+two:
+  name: MyString
+  dices: MyString
+  rules: MyText
+  author: MyString
+  templates: MyText
