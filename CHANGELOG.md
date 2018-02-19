@@ -1,4 +1,5 @@
 # Features
+* Created Campaign and user_accounts_campaigns join table
 * Created Items Quantity join table
 * Created Item model
 * Created Character model

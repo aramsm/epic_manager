@@ -1,7 +1,7 @@
 class GameSystem < ApplicationRecord
   has_many :characters
   has_many :items
-  has_many :campaings
+  has_many :campaigns
   serialize :templates, Hash
 
   DICES = {
