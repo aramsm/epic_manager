@@ -5,6 +5,9 @@ class CreateCampaigns < ActiveRecord::Migration[5.1]
       t.text :summary
       t.integer :game_master
       t.boolean :public
+      t.boolean :closed
+      t.integer :limit
+      t.string :banned_players
 
       t.timestamps
     end
